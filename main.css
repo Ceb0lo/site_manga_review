@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #ccf;
+}
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
+header{
+    padding: 16px 0;
+    background-color: #606;
+    color: #ecf0f1;
+    font-family: "Play", sans-serif;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header .container,
+section .container,
+.articles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    height: 500px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+.articles article{
+    width: 30%;
+    margin-bottom: 16px
+}
+h2, h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: "Play", sans-serif;
+}
+.articles article a{
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: "Play", sans-serif;
+}
+.articles article a:hover{
+    color: #ecf0f1;
+}
+
+form input,
+form select,
+form label,
+form textarea,
+form button{
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 400px;
+}
+input:focus,
+textarea:focus{
+    outline-color:#606;
+}
+form button{
+    background-color: #606;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgba(102, 0, 102, 0.411);
+}
+form textarea{
+    resize: none;
+    height: 100px;
+}
+.social_links img{
+    height: 24px;
+}
+.social_links li{
+    display: inline;
+    margin-right: 8px;
+}
+.social_links a{
+    text-decoration: none;
+}
+footer{
+    background-color: #606;
+    font-family: "Play", sans-serif;
+    color: #ecf0f1;
+}
